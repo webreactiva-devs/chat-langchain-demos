@@ -1,0 +1,259 @@
+
+BODY{
+	margin: 0px;
+	background: #DDDDDD;
+	left: 0px;
+	top: 0px;
+	/*font-family: 'Trebuchet MS', 'Lucida Grande',
+	  Verdana, Lucida, Geneva, Helvetica, 
+	  Arial, sans-serif;*/
+	font-family: 'Trebuchet MS', 'Lucida Grande',
+	  Verdana, Lucida, Geneva, Helvetica, 
+	  Arial, sans-serif;
+	font-weight: normal;
+	font-size: 90%;
+	text-align: left;
+}
+
+table#body A {
+	COLOR: #6666CC; TEXT-DECORATION: none
+}
+table#body  A:link {
+	COLOR: #6666CC; 
+	border-bottom: 1px dotted #6666CC;
+}
+table#body A:visited {
+	COLOR: #cc6600; 
+	border-bottom: 1px dotted #cc6600;
+}
+table#body A:active {
+	COLOR: #9898DE;
+	border-bottom: 1px solid #9898DE;
+}
+table#body A:hover {
+	COLOR: #9898DE;
+	border-bottom: 1px solid #9898DE;
+	}
+	
+#head, table#body, #foot{
+	width: 700px;
+	float: left;
+}
+
+#head{
+	border: 1px solid #FFFFFF;
+	background: #A2B2D6;
+	
+}
+
+.logo{
+	padding: 15px;
+}
+
+.headmenu{
+	background-color: #A2B2D6;
+	padding: 10px 0 10px 25px;
+	height: 30px;
+	vertical-align: middle;
+	font-size: 100%;
+}
+
+.headmenu ul{
+	color: #000000;
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	display: inline;
+}
+
+ul.menu2{
+	padding: 0px 0px 0px 35px;
+	font-size: 90%;
+}
+
+.headmenu ul li{
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+}
+
+.headmenu a, .headmenu a:link, .headmenu a:visited{
+	float: left;
+	padding: 0px 6px 0px 6px;
+	color: Black;
+	text-decoration: none;
+}
+
+.headmenu a:link.active, .headmenu a:visited.active, .headmenu a:hover{
+	color: #FFFFFF;
+	background-color: #466AB0;
+	/*text-decoration: underline;*/
+}
+
+
+
+
+.user{
+	padding: 5px;
+	background:#FFFFFF;
+	text-align: right;
+	color: #000000;
+}
+
+.track{
+	padding: 5px 5px 5px 10px;
+	background:#FFFFFF;
+	text-align: left;
+	color: #000000;
+}
+
+table#body{
+	border: 1px solid #FFFFFF;
+	background: #FFFFFF;
+	padding: 10px;
+}
+
+
+FORM{
+	display: inline;
+}
+
+fieldset{
+	padding: 5px;
+	margin: 10px;
+}
+/* Escondemos el borde del campo fieldset a MSIE
+porque sobreescribiría el campo legend*/
+div>fieldset{ 
+border: 1px dotted;
+}
+
+p.aviso {
+	margin: 0 20px 15px 20px;
+	color: #6666CC;
+	font: normal bold 100% "Georgia", "Times New Roman", Times, serif;
+}
+
+h1{
+	margin: 0 20px 15px 10px;
+	border-bottom: 3px solid #EEEEEE;
+	color: #000000;  
+}
+
+h1 span{
+	padding: 0 0 0 5px;
+	font: italic bold 70% "Georgia", "Times New Roman", Times, serif;
+	color: #CC6600;  
+}
+
+table.list{
+	width: 95%;
+	margin: 10px 10px 10px 10px;
+	border: 0px;
+	
+}
+
+table.list th{
+	border-bottom: 1px solid #000000;
+	padding: 0.2em;
+	font-weight: bold;
+	text-align: left;
+}
+
+table.list td{
+	background: #F9F9F9;
+	border-bottom: 1px solid #000000;
+	padding: 0.4em;
+	vertical-align: middle;
+}
+
+div.form{
+	width: 95%;
+	margin: 10px 10px 10px 10px;
+	border: 1px solid #FFFFFF;
+	padding: 0.4em;
+	background: #F9F9F9;
+}
+
+/*table.form td{
+	background: #F9F9F9;
+	border: 1px solid #FFFFFF;
+	padding: 0.4em;
+	vertical-align: top;
+}*/
+
+div.form INPUT{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 95%;
+}
+
+div.form TEXTAREA{
+	/*width: 400px;
+	height: 80px;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 95%;
+}
+
+div.form SELECT{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 95%;
+}
+
+div.form .option{
+	
+}
+
+div.form .button{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div.item{
+	padding: 10px 0;
+	margin: 2px 0;
+	border-top: 1px solid #AABBDD;
+}
+
+div.toolbar{
+	font-size: 90%;
+	padding: .2em;
+	margin-right: 140px;
+	text-align: right;
+	height: 10px;
+	font-family: Courier, monospaced;
+}
+
+div.toolbar span{
+	margin: 0 .1em;
+}
+
+
+/* Tabla de listados*/
+.col1{
+	width: 4%;
+	text-align: center;
+}
+
+.col2{
+	width: 26%;
+}
+
+/* Tabla de formulario*/
+.col3{
+	width: 30%;
+}
+
+.col4{
+	width: 70%:
+}
+
+.small{
+	font-size: 80%;
+}
+
+#foot{
+	border: 1px solid #FFFFFF;
+	background: #A2B2D6;
+	padding: 5px 0 5px 0;
+	text-align: center;
+	color: #FFFFFF;
+}

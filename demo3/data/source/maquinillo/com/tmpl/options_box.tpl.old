@@ -1,0 +1,53 @@
+<div class="optionbox">
+<div class="send">
+<?=$optionRecommend?>
+</div>
+<? if($optionPrint): ?>
+<div class="print">
+<?=$optionPrint?>
+</div>
+<? endif; ?>
+<? if($optionPdf): ?>
+<div class="printpdf">
+<?=$optionPdf?>
+</div>
+<? endif; ?>
+<div class="searchgoogle">
+<?=$optionSearch?>
+</div>
+<? if($optionUser): ?>
+<div class="senduser">
+<?=$optionUser?>
+</div>
+<? endif; ?>
+
+<br />
+
+<?php 
+if(showAdsense('didactica')){
+	$nullvariable= 0;
+}
+else{
+?>
+<script type="text/javascript"><!--
+google_ad_client = "pub-7110432088770954";
+google_ad_width = 234;
+google_ad_height = 60;
+google_ad_format = "234x60_as";
+google_ad_type = "text";
+google_ad_channel ="5528643833";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "0185B6";
+google_color_url = "0185B6";
+google_color_text = "003366";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<?php
+}
+?>
+
+
+</div>

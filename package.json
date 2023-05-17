@@ -1,0 +1,28 @@
+{
+  "name": "chat-langchain-demos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "basic": "node -r dotenv/config demo1/basic.js",
+    "memory": "tsx -r dotenv/config demo2/memory.ts",
+    "database": "tsx -r dotenv/config demo3/database.ts",
+    "search": "tsx -r dotenv/config demo3/search.ts",
+    "ingest-code": "node -r dotenv/config demo3/ingest-code.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.1.7",
+    "dotenv": "^16.0.3",
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.75",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "tsx": "^3.12.7"
+  }
+}
