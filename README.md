@@ -4,6 +4,9 @@ Repositorio de ejemplos para el uso de Langchain, una biblioteca para interactua
 
 [Masterclass en Web Reactiva](https://www.webreactiva.com/cursos/masterclass/como-crear-aplicaciones-con-inteligencia-artificial-con-langchain-y-openai)
 
+![image](https://github.com/webreactiva-devs/chat-langchain-demos/assets/1122071/ae2ec61f-2f6b-42b2-8b2e-584f703f9b93)
+
+
 ## Demostraciones
 
 ### Demo 1: Básico
