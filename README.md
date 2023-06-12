@@ -105,7 +105,7 @@ Este proyecto depende de varias bibliotecas, incluyendo:
 
 `LangChain.js` es una biblioteca diseñada para construir aplicaciones con LLM a través de la componibilidad. Los LLM están emergiendo como una tecnología transformadora que permite a los desarrolladores crear aplicaciones que antes no podían. Sin embargo, usar estos LLM de forma aislada a menudo no es suficiente para crear una aplicación verdaderamente poderosa. El verdadero poder proviene cuando se pueden combinar con otras fuentes de cálculo o conocimiento.
 
-La biblioteca `LangChain.js` está diseñada para ayudar en el desarrollo de estos tipos de aplicaciones. Esta biblioteca se construyó para integrarse de la manera más fluida posible con el paquete Python de LangChain. Esto significa que todos los objetos (prompts, LLM, cadenas, etc.) están diseñados de tal manera que pueden ser serializados y compartidos entre lenguajes. El LangChainHub es un lugar central para las versiones serializadas de estos prompts, cadenas y agentes【37†source】【38†source】【39†source】.
+La biblioteca `LangChain.js` está diseñada para ayudar en el desarrollo de estos tipos de aplicaciones. Esta biblioteca se construyó para integrarse de la manera más fluida posible con el paquete Python de LangChain. Esto significa que todos los objetos (prompts, LLM, cadenas, etc.) están diseñados de tal manera que pueden ser serializados y compartidos entre lenguajes. El LangChainHub es un lugar central para las versiones serializadas de estos prompts, cadenas y agentes.
 
 
 ### Instalación de la biblioteca LangChain.js
